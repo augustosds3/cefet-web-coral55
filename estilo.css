@@ -1,2 +1,40 @@
 /* Importa o arquivo CSS que importa a fonte Ravie */
 @import "fonts/ravie.css";
+
+#recipiente{
+	background: linear-gradient(#f1f6b2,#4599b2);
+	padding-left: 100px;
+	padding-right: 100px;
+	position: relative;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #fff;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 0px;
+}
+
+header{
+	padding-top: 17px;
+	text-align: center;
+}
+
+footer{
+	text-align: right;
+	margin-right: 15px;
+	margin-bottom: 25px;
+	margin-top: 46px;
+}
+
+
+
+aside{
+	position: absolute;
+	width: 70%;
+	right: 30px; 
+	bottom: 200px;
+	box-sizing: border-box;
+	border: 1px  #aac0ae;
+}
