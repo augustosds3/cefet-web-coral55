@@ -5,14 +5,100 @@
 	background: linear-gradient(#f1f6b2,#4599b2);
 	margin: auto;
     width: 800px;
+    height: 800px;
     border: 1px solid #d3d3d3;
     padding: 10px;
     position: relative;
+    box-sizing:border-box;
+}
+
+#cardapio{
+     transform: rotate(90deg);
+     width: 120px;
+     font-family: Verdana;
+     font-size: 48px;
+     font-weight: bold;
+     color:#333;
+     left: 10px;
+     position: absolute;
+     top: 230px;
+}
+
+#acai{
+    color: #d027aa;
+}
+
+#ticket {
+
+    left: -70px;
+    transition: left 100ms ease-out; /* propriedade, duração, interpolação */
+    position: absolute;
+    top: 295px;
+}
+#ticket:hover {
+  left: 0;
+}
+
+#siri{
+    position: absolute;
+    left:-30px;
+    top:17px;
+}
+
+#bolhas{
+    left: 30px;
+    bottom: 125px;
+    position: absolute;
+}
+
+#peixe{
+    bottom: 0px;
+    left:-44px;
+    position: absolute;
 }
 
 aside{
 	position: absolute;
 	width: 646px;
-    right: 30px; 
-    bottom: 66px;
+    right:0px; 
+    bottom: 100px;
+    top:140px;
+    font-size: 14px;
+    font-family: Verdana;
+    color: #333;
+    border: 1px solid #aac0ae;
+    padding: 10px;
+    line-height: 200%;
+    
+}
+h1{
+    font-size: 36px;
+    color: #e90c0c;
+    font-family: ravie;
+}
+
+h2{
+   font-family: 'Trebuchet MS';
+}
+
+h3{
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+header{
+    text-align: center;
+}
+
+footer{
+    position: absolute;
+    right:15px;
+    bottom: 25px;
+    padding-top: 56px;
+}
+
+.floatPreco{
+    float: right;
 }
